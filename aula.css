@@ -1,11 +1,15 @@
-header {
-background-color: #142026;
-padding: 25px;
-display: flex;
-justify-content: center;
-gap: 60px;
-align-items: center;
+* {
+    margin: 0;
+    padding: 0;
+}
 
+header{
+    background-color: #142026;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    align-items: center;
 }
 
 header i {
@@ -16,8 +20,8 @@ header i {
 }
 
 header h1 {
-color: black;
-font-size: 60px;
+    color: #e9f0c9;
+    font-size: 60px;
 
 }
 
@@ -29,26 +33,26 @@ font-size: 60px;
 }
 
 .list-menu ul li {
-list-style: none;
+    list-style: none;
 
 }
 
 .list-menu ul li a {
-text-decoration: none;
-color: white;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
 
 }
 
 .primeira-section {
-padding: 160px;
-background-image:url(imagens/house-1867187_1280.jpg) ;
-display: flex;
-justify-content: center;
-align-items: center;
-background-position: center;
-background-size: cover;
-background-attachment: fixed
-
+    padding: 160px;
+    background-image: url(imagens/house-1867187_1280.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed
 }
 
 .primeira-section button {
@@ -59,45 +63,121 @@ background-attachment: fixed
 
 }
 
-.segunda-section  {
-padding: 150px;
-background-color: black;
-display: flex;
-gap: 10px;
-justify-content: space-evenly;
+.segunda-section {
+    padding: 150px;
+    background-color: #142026;
+    display: flex;
+    gap: 10px;
+    justify-content: space-evenly;
 
 }
 
 .segunda-section div {
-width: 300px;
-height: 300px;
-background-color: #3b657a;
-color: white;
-text-align: center;
-padding: 15px;
+    width: 300px;
+    height: 300px;
+    background-color: #3b657a;
+    color: white;
+    text-align: center;
+    padding: 15px;
 
 
 }
 
 .div-01 i {
-font-size: 30px;
-color: black;
+    font-size: 30px;
+    color: black;
 
 
 
 }
 
 .div-02 {
-background-image: url(imagens/casa\ 1.jpg);
-background-repeat: no-repeat;
-background-size: cover;
+    background-image: url(imagens/casa\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 
 
 }
 
 .div-03 {
-background-image: url(imagens/casa\ 2.webp);
-background-repeat: no-repeat;
-background-size: cover;
+    background-image: url(imagens/casa\ 2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
+
+.terceira-section {
+    background-color: #3b657a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+    gap: 30px;
+
+}
+
+.terceira-section p {
+    color: white;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: 30px;
+}
+
+.terceira-section img {
+    width: 600px;
+    height: 500px;
+    border-radius: 30px;
+
+}
+
+.terceira-section span {
+    color: darkblue;
+
+}
+
+.quarta-section {
+    background-color: #142026;
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+}
+
+.quarta-section p {
+    color: white;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: 30px;
+background-color: #3b657a52;
+}
+
+ 
+iframe {
+    border-radius: 50px;
+
+}
+
+footer {
+background-color: black;
+align-items: center;
+text-align: center;
+gap: 30px;
+padding: 40px;
+}
+
+footer p {
+color: white;
+font-size: 20px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+text-align: 30px;
+gap: 30px;
+}
+
+footer img {
+    width: 40px;
+
+}
+
+
