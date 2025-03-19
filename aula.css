@@ -1,13 +1,16 @@
 * {
     margin: 0;
     padding: 0;
+    list-style: none;
+    scroll-behavior: smooth;/*transição mais suave*/
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 header{
     background-color: #142026;
     padding: 25px;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     gap: 60px;
     align-items: center;
 }
