@@ -1,0 +1,203 @@
+/* inicio da segunda página */
+
+* {
+    margin: 0;
+    list-style: none;
+    scroll-behavior: smooth;
+    /*scroll suave nas transições*/
+    font-family: "Libre Baskerville", serif;
+}
+
+
+
+
+header {
+    background-color: #123142;
+    
+    color: #e9f0c9;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    align-items: center;
+    padding: 40px;
+}
+
+header h1 {
+    font-family: "Libre Baskerville", serif;
+    color: #e9f0c9;
+    padding: 30px;
+    font-size: 40px;
+}
+
+.div-cabecalho ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.div-cabecalho ul li {
+    list-style: none;
+}
+
+.div-cabecalho ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: "Libre Baskerville", serif;
+}
+
+
+.sessao1-form {
+    background-color: #142026;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+.sessao1-form p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    background: #3b657a;
+    padding: 10px 20px;
+    border-radius: 10px;
+    gap: 10px;
+}
+
+.sessao1-form img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+.sessao2-form {
+    background-color:  #3b657a;
+    padding: 180px;
+    gap: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.sessao3-form {
+    background-color: #3b657a;
+    padding: 180px;
+    gap: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagemformata {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px black;
+    transition: 0.8s;
+    margin-top: 15px;
+}
+
+.imagemformata:hover {
+    box-shadow: 10px 10px 20px black;
+    transition: 0.8s;
+    transform: scale(0.91) translate(5px, 5px);
+}
+
+
+.spanformata {
+    color: rgba(255, 255, 255, 0.829);
+}
+
+.divform {
+    width: 300px;
+    height: 300px;
+}
+
+.sessao4-form{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#3b657a;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+.divbotao{
+    padding: 8px;
+    width: 200px;
+    background-color: #142026;
+    border-radius: 30px;
+    color: white;
+    font-size: larger;
+}
+
+
+.sessao5-form {
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-items: center;
+    padding: 150px;
+    gap: 60px;
+    background-color: #123142;
+}
+
+
+.sessao5-form p {
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    font-size: 150%;
+    line-height: 30px;
+    font-family: "Libre Baskerville", serif;
+    background-color: #3b657a;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+
+.sessao5-form img {
+width: 600px;
+border-radius: 30px;
+}
+
+
+footer {
+    padding: 40px;
+    background-color: black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+footer p {
+    font-size: 25px;
+    color: white;
+}
+
+footer img {
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.fa-house{
+    font-size: 40px;
+    color: #e9f0c9;
+}
