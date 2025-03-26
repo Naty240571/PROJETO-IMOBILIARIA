@@ -2,11 +2,12 @@
     margin: 0;
     padding: 0;
     list-style: none;
-    scroll-behavior: smooth;/*transição mais suave*/
+    scroll-behavior: smooth;
+    /*transição mais suave*/
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-header{
+header {
     background-color: #142026;
     padding: 25px;
     display: flex;
@@ -47,6 +48,12 @@ header h1 {
 
 }
 
+.list-menu ul li a:hover {
+    color: #3b657a;
+    transition: 0.8s;
+}
+
+
 .primeira-section {
     padding: 160px;
     background-image: url(imagens/house-1867187_1280.jpg);
@@ -63,6 +70,12 @@ header h1 {
     width: 150px;
     background-color: #142026;
     color: white;
+
+}
+
+.primeira-section button:hover {
+    color: #3b657a;
+    transition: 0.8s;
 
 }
 
@@ -83,30 +96,56 @@ header h1 {
     text-align: center;
     padding: 15px;
 
-
 }
+ 
 
 .div-01 i {
     font-size: 30px;
     color: black;
+    
+}
 
+.caixa01:hover {
+    box-shadow: 10px 10px 20px black;
+    transition: 0.8s;
+    transform: scale(0.91) translate(5px, 5px);
 
+}
 
+.caixa02:hover {
+    box-shadow: 10px 10px 20px black;
+    transition: 0.8s;
+    transform: scale(0.91) translate(5px, 5px);
+
+}
+
+.caixa03:hover {
+    box-shadow: 10px 10px 20px black;
+    transition: 0.8s;
+    transform: scale(0.91) translate(5px, 5px);
+
+}
+
+.div-01 {
+    border-radius: 20px;
+    
 }
 
 .div-02 {
     background-image: url(imagens/casa\ 1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-
+    border-radius: 20px;
 
 }
+
+
 
 .div-03 {
     background-image: url(imagens/casa\ 2.webp);
     background-repeat: no-repeat;
     background-size: cover;
-
+    border-radius: 20px;
 }
 
 .terceira-section {
@@ -130,7 +169,7 @@ header h1 {
     width: 600px;
     height: 500px;
     border-radius: 30px;
-
+box-shadow: 10px 10px 20px black;
 }
 
 .terceira-section span {
@@ -153,34 +192,37 @@ header h1 {
     font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: 30px;
-background-color: #3b657a52;
+    background-color: #3b657a52;
 }
 
- 
+.fa-user {
+    font-size: 25px;
+
+}
+
+
 iframe {
     border-radius: 50px;
 
 }
 
 footer {
-background-color: black;
-align-items: center;
-text-align: center;
-gap: 30px;
-padding: 40px;
+    background-color: black;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    padding: 40px;
 }
 
 footer p {
-color: white;
-font-size: 20px;
-font-family: Georgia, 'Times New Roman', Times, serif;
-text-align: 30px;
-gap: 30px;
+    color: white;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: 30px;
+    gap: 30px;
 }
 
 footer img {
     width: 40px;
 
 }
-
-

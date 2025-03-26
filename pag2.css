@@ -45,6 +45,12 @@ header h1 {
     font-family: "Libre Baskerville", serif;
 }
 
+.div-cabecalho ul li a:hover {
+    color: #3b657a;
+    transition: 0.8s;
+
+}
+
 
 .sessao1-form {
     background-color: #142026;
@@ -140,6 +146,12 @@ header h1 {
     font-size: larger;
 }
 
+.divbotao:hover {
+    color: #3b657a;
+    transition: 0.8s;
+
+}
+
 
 .sessao5-form {
     display: flex;
@@ -194,10 +206,14 @@ footer img {
     align-items: center;
 }
 
-
-
-
 .fa-house{
     font-size: 40px;
     color: #e9f0c9;
 }
+
+
+.iconesfooter {
+color: #e9f0c9;
+
+}
+
