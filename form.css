@@ -1,0 +1,69 @@
+/* estilização global */
+* {
+margin: 0;
+padding: 0;
+
+}
+
+body {
+background-color:#123142;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 80px;
+
+}
+
+/* estilizando a div que contem o formulario*/
+
+.div-form {
+background-color:#3b657a ;
+padding: 30px;
+border-radius: 10px; /*arredondar as bordas*/
+box-shadow: 10px 10px 20px black;
+width: 300px; /*largura da caixa*/
+height: 100px; /*altura da caixa*/
+}
+
+form {
+display: flex;
+flex-direction: column;
+
+}
+
+label {
+margin: bottom 5px; /*margem inferior*/
+font-weight: bold; /*largura da fonte*/
+
+}
+
+.dombosco {
+background-color: #e9f0c9;
+display: flex;
+justify-content: center;
+
+}
+
+/*input[type="email"], input[type="password"] {
+backgraund-color: rgb(12, 171, 20);}*/
+
+.dombosco {
+padding: 10px; /*espaçamento interno*/
+margin-bottom: 15px; /* espaçamento inferior dos input*/
+font-size: 16px; /*tamanho da letra*/
+border-radius: 5px; /*bordas arredondadas*/
+border: 2px solid #142026; /*inserindo bordas no input*/
+
+}
+
+.btn-form {
+background-color:#142026 ;/*cor de fundo do btn*/
+color:white; /*cor da letra*/
+padding: 10px; /*espaçamento interno*/
+border:none; /*bordar= nenhuma/sem borda*/
+border-radius: 5px; /*arredondamento do btn*/
+font-size: 16px; /*tamanho da letra*/
+cursor: pointer; /*tipo de cursor do mouse*/
+
+}
+

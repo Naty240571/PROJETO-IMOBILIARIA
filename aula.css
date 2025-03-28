@@ -222,7 +222,7 @@ footer p {
     gap: 30px;
 }
 
-footer img {
-    width: 40px;
-
+.fa-house {
+    color: white;
+    font-size: 25px;
 }
