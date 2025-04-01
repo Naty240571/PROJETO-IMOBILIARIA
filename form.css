@@ -22,7 +22,7 @@ padding: 30px;
 border-radius: 10px; /*arredondar as bordas*/
 box-shadow: 10px 10px 20px black;
 width: 300px; /*largura da caixa*/
-height: 100px; /*altura da caixa*/
+height: 400px; /*altura da caixa*/
 }
 
 form {
@@ -50,7 +50,7 @@ backgraund-color: rgb(12, 171, 20);}*/
 .dombosco {
 padding: 10px; /*espaçamento interno*/
 margin-bottom: 15px; /* espaçamento inferior dos input*/
-font-size: 16px; /*tamanho da letra*/
+font-size: 15px; /*tamanho da letra*/
 border-radius: 5px; /*bordas arredondadas*/
 border: 2px solid #142026; /*inserindo bordas no input*/
 
@@ -62,7 +62,7 @@ color:white; /*cor da letra*/
 padding: 10px; /*espaçamento interno*/
 border:none; /*bordar= nenhuma/sem borda*/
 border-radius: 5px; /*arredondamento do btn*/
-font-size: 16px; /*tamanho da letra*/
+font-size: 20px; /*tamanho da letra*/
 cursor: pointer; /*tipo de cursor do mouse*/
 
 }
