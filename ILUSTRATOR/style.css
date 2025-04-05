@@ -1,49 +1,50 @@
 * {
-padding: 0;
-margin: 0;
+    padding: 0;
+    margin: 0;
 
 }
 
 header {
-display: flex;
-justify-content: space-evenly;
-gap: 15px;
-background-color: #ff8b9d;
-padding: 15px;
-align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15px;
+    background-color: #ff8b9d;
+    padding: 15px;
+    align-items: center;
 
 }
 
 header img {
-width: 150px;
-height: auto;
+    width: 150px;
+    height: auto;
 
 }
 
 header button {
-width: 150px;
-padding: 3px;
-border: none;
-background-color: rgba(207, 40, 137, 0.719);
-color: rgb(8, 8, 8);
-border-radius: 5px;
+    width: 150px;
+    padding: 3px;
+    border: none;
+    background-color: rgba(207, 40, 137, 0.719);
+    color: rgb(8, 8, 8);
+    border-radius: 5px;
 }
 
 header button:hover {
-background-color: #e3275a;
-transition: 0.8s;
-cursor: pointer;
-border-radius: 5px;
+    background-color: #e3275a;
+    transition: 0.8s;
+    cursor: pointer;
+    border-radius: 5px;
 
 }
 
 .section-01 {
-background: linear-gradient(180deg);
-background-size: cover;
-background-repeat: no-repeat;
-background-position: center;
+    background: linear-gradient(180deg, #0c16a364 8.33%, rgba(5, 39, 101, 0.745) 100%), url(imagens/imagem03.jpg);
+    /*Filtro Gradient e imagem de fundo*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 
-padding: 200px;
+    padding: 200px;
 }
 
 
