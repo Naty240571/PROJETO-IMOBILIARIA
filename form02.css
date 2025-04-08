@@ -25,6 +25,7 @@
     width: 300px; /*largura da caixa*/
     height: 700px; /*altura da caixa*/
     }
+
     
     form {
     display: flex;
@@ -35,8 +36,17 @@
     label {
     margin: bottom 5px; /*margem inferior*/
     font-weight: bold; /*largura da fonte*/
+    color: white;
     
     }
+
+    .div-form h2, p {
+        color: white;
+        margin: 10px;/*utilizado para mecher na margem dor quatro lados*/
+        
+    }  
+
+    
     
     .dombosco {
     background-color: #e9f0c9;
